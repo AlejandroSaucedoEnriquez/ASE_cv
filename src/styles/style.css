@@ -1,0 +1,402 @@
+/*Media queries sirve para diferentes dispositivos*/
+@import url(./about-me.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --dark-blue: #310A90;
+    --white: #ffffff;
+    --fontOxigen:'Oxygen', sans-serif;
+}
+body{
+    background: radial-gradient(21.48% 5.48% at 2.38% 18.52%,#747DE9 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(120deg, #72EDF2 0%, #5151E5 100%);
+    font-family: var(--fontBase);
+    color: var(--dark-blue);
+}
+
+
+.nav-bar li {
+    display: inline-block;
+    margin-top: 45px;
+    
+}
+
+li a{
+    padding-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+    font-size: 34px;
+    line-height: 38.83px;
+}
+
+#logo{
+    padding-right: 100px;
+    margin-top: 37px;
+}
+
+.achicar{
+    font-size: 18px;
+    
+}
+.nav-mor{
+    color: var(--dark-blue);
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cont-izq{
+    margin-right: 600px;
+    margin-top: 70px;
+}
+
+h5{
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    line-height: 38.83px;
+    
+}
+
+h1{
+    font-size: 65px;
+    margin-left: 50px;
+}
+
+p{
+    font-size: 22px;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+
+
+
+div a{
+
+align-items: flex-start;
+padding: 10px;
+
+position: static;
+width: 54px;
+height: 54px;
+left: 0px;
+top: 0px;
+
+/* white */
+
+background: #FFFFFF;
+/* primary */
+
+border: 3px solid #310A90;
+box-sizing: border-box;
+border-radius: 4px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+margin-left: 15px;
+
+}
+div a img{
+    width: 28px;
+    height: 25px;
+}
+
+.iconos a:first-child{
+    margin-left: 50px;
+}
+
+.iconos{
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button a{
+color: var(--white);
+text-decoration: none;
+font-weight: bold;
+font-size: 19.5px;
+}
+
+button{
+    background-color: rgb(55, 0, 128);
+    border: 2px solid rgb(55, 0, 128);
+    border-radius: 5px;
+    padding: 19px 35px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.cont-der{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cont-der img{
+  padding: 40px 70px 0px 70px;
+  border-radius: 5%;
+  position: absolute;
+  background-color:rgb(110, 80, 180);
+  border-bottom: 120px solid var(--white);
+  width: 690px;
+  height: 690px;
+  left: 740px;
+  top: 74px;
+  margin-left: 300px;
+}
+
+.participe{
+    text-align: center;
+}
+
+.participe h2{
+    font-family: var(--fontOxigen);
+    margin-top: 500px;
+    font-size: 45px;
+}
+
+section h2.modh2{
+    margin-top: 10px;
+}
+
+.participe h5{
+   font-family: var(--fontBase);
+   font-size: 34px;
+   margin-top: 80px;
+}
+
+.participe img{
+    margin-bottom: 300px;
+    width: 120px;
+}
+
+
+.mi-proyecto{
+  margin-left: 130px;
+  display: flex;
+  flex-direction: row;
+}
+.mi-proyecto h3{
+    color: var(--white);
+    background-color: var(--dark-blue);
+    border-bottom: 4px solid var(--white);
+    border-left: 4px solid var(--white);
+    width: 12%;
+    padding: 10px 460px 10px 10px;
+    font-size: 47px;
+    margin-top: 140px;
+    font-family: var(--fontBase);
+    margin-left: 50px;
+}
+
+.mi-proyecto p{
+    font-weight: 400;
+}
+
+.btn-proyecto{
+   color: var(--white);
+   background-color: var(--dark-blue);
+   font-size: 20px;
+}
+
+.btn-codigo{
+  color: var(--dark-blue);
+  background-color: Transparent;
+  border: 3px solid var(--dark-blue);
+  font-size: 20px;
+
+}
+
+.netflix{
+    margin-left: -400px;
+    width: 55vw;
+}
+
+.jc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    margin-top: 200px;
+}
+
+.jc h2{
+    font-size: 46px;
+    font-family: var(--fontOxigen);
+}
+
+.jc h3{
+    margin-top: 15px;
+    color: #310A90;
+    opacity: 0.5;
+    font-family: var(--fontBase);
+    font-size: 34px;
+}
+
+.marvol{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 180px;
+}
+
+.marvol img{
+    width: 37vw;
+    height: 105vh;
+    margin-right:  50px;
+} 
+
+.marvolSection h3{
+    color: var(--white);
+    background-color: var(--dark-blue);
+    border-bottom: 4px solid var(--white);
+    border-left: 4px solid var(--white);
+    width: 15%;
+    padding: 10px 200px 10px 10px;
+    font-size: 42px;
+    margin-top: 150px;
+    font-family: var(--fontBase);
+    margin-left: 50px;
+    
+    
+} 
+
+.marvolSection{
+   margin-right: 200px;
+   margin-top: 150px;
+}
+
+.marvolSection button{
+    display: inline-block;
+}
+
+/*Aqui agrege mas codigo david*/
+
+.jcy img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h2.jcand{
+    font-size: 42px;
+    font-family: var(--fontOxigen);
+}
+
+.jcy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    border-radius: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+    border-left: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    margin-top: 200px;
+}
+
+.jcy h3{
+    margin-top: 15px;
+    color: #310A90;
+    opacity: 0.5;
+    font-family: var(--fontBase);
+    font-size: 34px;
+}
+
+.netnet{
+    margin-left: 130px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 430px;
+}
+
+.net{
+    margin-top: -100px;
+}
+
+.netnet h3{
+      color: var(--white);
+      background-color: var(--dark-blue);
+      border-bottom: 4px solid var(--white);
+      border-left: 4px solid var(--white);
+      width: 12%;
+      padding: 10px 195px 10px 10px;
+      font-size: 47px;
+      margin-top: 140px;
+      font-family: var(--fontBase);
+      margin-left: 50px;
+}
+
+
+
+.netnet p{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.netnetimg {
+    width: 24vw;
+    height: 87vh;
+    margin-left: 300px;
+    margin-top: -210px;
+}
+
+
+footer li a#logo{
+    color: var(--white);
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+footer p{
+    text-align: center;
+    margin-top: 24px;
+    margin-left:  100px;
+    color: var(--white);
+}
+
+footer.iconos a{
+   margin-right: 30px;
+   justify-content: space-evenly;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    
+}

@@ -1,0 +1,38 @@
+/*es menor a 600px cuelular, 900px tableta, 1200px computadora*/
+@media screen and (max-width: 600px){
+
+
+    #logo{
+        display:inline-block;
+        padding-right: 0 !important;
+        margin-left: 530px !important;
+        margin-top: -200px !important;
+    }
+    #about-me{
+        margin-left: 500px;
+        margin-top: 500px;
+    }
+
+     h1{
+        font-size: 34px;
+    }
+     
+    #contenedor{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cont-der img{
+        margin-left: -720px !important;
+        border-bottom: 60px solid var(--white)!important;
+        width: 320px !important;
+        height: 390px !important;
+        margin-top: 100px;
+        
+    }
+    
+   
+}
+
+
